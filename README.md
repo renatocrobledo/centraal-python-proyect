@@ -51,12 +51,12 @@
       username,
       password
     }
+    
   > GET /favorites
 
   > GET /movies
 
   > POST /movies
-
     {
       name,
       year,
@@ -66,7 +66,6 @@
     }
 
   > PUT /movies
-
     {
       id,
       name,
