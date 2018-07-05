@@ -7,6 +7,7 @@
 - User role support (admin, logued)
 - Depending on the role the diferent functionalities would be available to execute trough respective end-points.
 - Use of SQL & mongodb
+
 ## logued
   > Read all categories
 
