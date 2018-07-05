@@ -36,8 +36,6 @@
 ## Anonymous (not-logued-users)
   > register user
 
-
-
 ## endpoints:
   > POST /login
     {
@@ -87,7 +85,6 @@
       id,
       name
     }
-
 
 Notes: 
   * users without session will be treated as "anonymous". 
