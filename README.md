@@ -1,4 +1,4 @@
-# BackEnd Netflix abstraction
+# Netflix Minimalistic BackEnd abstraction
 
 ## covering:
 - User registration
@@ -51,7 +51,7 @@
       username,
       password
     }
-    
+
   > GET /favorites
 
   > GET /movies
