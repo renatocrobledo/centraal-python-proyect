@@ -1,40 +1,43 @@
 # Netflix Minimalistic BackEnd abstraction
 
-## covering:
-- User registration
+## Covering:
+- User registration 
 - Server-side Login mechanism.
+  (Auth, )
 - User role support (admin, logued)
 - Depending on the role the diferent functionalities would be available to execute trough respective end-points.
+- Use of SQL & mongodb
+## logued
+  > Read all categories
 
-## logued:
-  > read all categories
+  > Read all movies
 
-  > read all movies
+  > Search movie by keyword
 
-  > search by keyword
+  > Search movie by name 
 
-  > search by name 
+  > Search movie by id
 
-  > search by id
+  > Search movie by category
 
-  > add movie to favorites
+  > Add movie to favorites
 
-  > read favorite movies
+  > Read favorite movies
 
-  > delete favorite movie
+  > Delete favorite movie
 
-## Admin:
-  > all the logued one functionalities ...
+## Admin
+  > All the logued one functionalities ...
 
-  > create new movie ( name, year director*, category, tags)
+  > Create new movie ( name, year director*, category, tags)
   
-  > update movie
+  > Update movie
 
-  > create new category (name)
+  > Create new category (name)
 
-  > update category
+  > Update category
 ## Anonymous (not-logued-users)
-  > register user
+  > Register user
 
 ## endpoints:
   > POST /login
