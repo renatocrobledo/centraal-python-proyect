@@ -97,3 +97,4 @@ Notes:
   * category must be defined before movies! 
   * tags are keywords asociated with a movie.
   * (*) optional fields
+  * [working-with-user-roles-in-django](https://stackoverflow.com/questions/33445313/working-with-user-roles-in-django)
