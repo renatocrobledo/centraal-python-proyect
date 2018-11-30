@@ -21,3 +21,6 @@ class Serie(models.Model):
 class UserProfile(models.Model):
   user = models.OneToOneField(User, related_name="profile", on_delete=models.DO_NOTHING)
   role = models.CharField(max_length=50)
+
+  def __str__(self):
+    return f'{ self.user} > {self.role}'
