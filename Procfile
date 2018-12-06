@@ -1,0 +1,1 @@
+web: python3 webflix/manage.py runserver 0.0.0.0:$PORT --insecure
