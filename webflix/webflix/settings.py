@@ -24,9 +24,7 @@ SECRET_KEY = 'nz7yf6qjmvrry6fd(sbj2!vdieb1=ij2u3w5j(jo$&h)sys_0='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-print('WWWWWWW', os.environ.get('PRODUCTION_FLAG'))
-
-DEBUG = os.environ.get('PRODUCTION_FLAG') or True
+DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = [
   'webflix-centraal.herokuapp.com'
