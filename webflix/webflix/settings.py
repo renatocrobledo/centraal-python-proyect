@@ -23,7 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'nz7yf6qjmvrry6fd(sbj2!vdieb1=ij2u3w5j(jo$&h)sys_0='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+print('WWWWWWW', os.environ.get('PRODUCTION_FLAG'))
+
+DEBUG = os.environ.get('PRODUCTION_FLAG') or True
 
 ALLOWED_HOSTS = [
   'webflix-centraal.herokuapp.com'
